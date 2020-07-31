@@ -19,6 +19,9 @@ class MainActivity : AppCompatActivity() {
         //set the AutoComplete EditText to the Adapter
         autoCompleteTextView.setAdapter(adapter)
 
+        //set character number to show promps
+        autoCompleteTextView.threshold = 1
+
 
     }
 }
