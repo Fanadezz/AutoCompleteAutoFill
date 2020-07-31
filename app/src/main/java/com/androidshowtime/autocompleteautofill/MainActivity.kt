@@ -26,6 +26,9 @@ class MainActivity : AppCompatActivity() {
         val facebook = "Facebook"
 
 
+        val login = 10
+
+
 
     }
 }
