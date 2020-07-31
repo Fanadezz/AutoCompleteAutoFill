@@ -19,8 +19,12 @@ class MainActivity : AppCompatActivity() {
         //set the AutoComplete EditText to the Adapter
         autoCompleteTextView.setAdapter(adapter)
 
-        //set character number to show promps
+        //set character number to show prompts
         autoCompleteTextView.threshold = 1
+
+        //adding facebook
+        val facebook = "Facebook"
+
 
 
     }
